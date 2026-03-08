@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	install -Dm755 run.pl            debian/usr/lib/obs/service/run
+	install -Dm644 run.service       debian/usr/lib/obs/service/run.service
