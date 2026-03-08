@@ -4,5 +4,11 @@
 	dh $@
 
 override_dh_auto_install:
-	install -Dm755 run.pl            debian/usr/lib/obs/service/run
-	install -Dm644 run.service       debian/usr/lib/obs/service/run.service
+	install -Dm755 run.pl            debian/obs-service-run/usr/lib/obs/service/run
+	install -Dm644 run.service       debian/obs-service-run/usr/lib/obs/service/run.service
+
+override_dh_auto_configure:
+	echo conf > fine.txt
+
+override_dh_auto_build:
+	echo fonf > fine.txt
