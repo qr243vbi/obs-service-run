@@ -1,8 +1,8 @@
 Format: 1.0
 Source: obs-service-run
-Version: 0.11.0
+Version: 2.0.0
 Binary: obs-service-run
-Maintainer: juzbun <my@email.com>
+Maintainer: qrib <my@email.com>
 Architecture: all
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 8.0.0), perl
