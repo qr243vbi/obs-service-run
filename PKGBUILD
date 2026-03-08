@@ -1,5 +1,5 @@
 pkgname=obs-service-run
-pkgver=0.1.0
+pkgver=2.0.0
 pkgrel=0
 pkgdesc="Source Service for the OpenSUSE Build Service (OBS)"
 arch=('any')
