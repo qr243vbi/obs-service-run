@@ -1,5 +1,5 @@
 Name:           obs-service-run
-Version:        0.0.3
+Version:        2.0.0
 Release:        0
 Summary:        Obs service that will run command
 License:        GPL-3.0-or-later
