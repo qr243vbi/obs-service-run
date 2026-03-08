@@ -4,7 +4,7 @@ Maintainer: yourName <yourEmail@hostname.de>
 Build-Depends: debhelper-compat (= 12)
 
 Package: obs-service-run
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}
 Description: single-line brief description
  Then, here there is the long description of the package.
