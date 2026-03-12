@@ -1,12 +1,12 @@
 Name:           obs-service-run
-Version:        2.0.0
+Version:        2.0.1
 Release:        0
 Summary:        Obs service that will run command
 License:        GPL-3.0-or-later
 URL:            https://github.com/huakim-tyk/%{name}
 Group:          Development/Tools/Building
 BuildArch:      noarch
-BuildRequires:  rpm_macro(_obs_service_dir)
+BuildRequires:  (rpm_macro(_obs_service_dir) or obs-rpm-macros)
 Requires:       bash
 Source0:        run.pl
 Source1:        run.service
